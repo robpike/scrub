@@ -6,7 +6,7 @@
 // after deleting any App, JPEG, or comment segment. That is,
 // it scrubs all metadata from the input and writes the result
 // to standard output.
-package main
+package main // import "robpike.io/cmd/scrub"
 
 import (
 	"flag"
